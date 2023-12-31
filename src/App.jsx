@@ -79,8 +79,8 @@ function App() {
       {loading && !error && <p>Data not available yet. Please wait.</p>}
       {error && <p>{error}</p>}
       
-      <div className='shape absolute top-[-70px] right-[-10px] bg-yellow-100 transform rotate-90'></div>
-      <div className='shape absolute bottom-[-70px] left-[-40px] bg-purple-200 transform rotate-45'></div>
+      <div className='shape absolute top-[-100px] right-[-40px] bg-yellow-100 transform rotate-90'></div>
+      <div className='shape absolute bottom-[-110px] left-[-50px] bg-purple-200 transform rotate-45'></div>
     </div>
   )
 }
