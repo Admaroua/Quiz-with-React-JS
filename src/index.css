@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: black;
+}
+@layer utilities {
+  
+
+  .answer {
+    @apply  flex flex-col justify-center items-center border border-solid border-gray-500 rounded-lg cursor-pointer px-2;
+  }
+  .correctAnswer{
+    @apply bg-green-300 border-green-500;
+  }
+  .incorrectAnswer{
+    @apply bg-red-400 border-red-600;
+  }
+  .separator{
+    @apply h-[1px] bg-gray-300 w-full mt-4
+  }
+  
+  .shape{
+    height: 170px;
+    width: 150px;
+    border-radius: 70% 30% 40% 20%/ 40% 44% 60% 70%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
